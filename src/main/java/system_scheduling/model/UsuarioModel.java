@@ -10,7 +10,7 @@ import java.util.UUID;
 public class UsuarioModel {
 
     @Id
-    @Column
+    @Column(name = "id")
     private UUID idUser;
 
     @Column
